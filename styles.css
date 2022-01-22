@@ -1,5 +1,56 @@
+body {
+  background-color: skyblue;
+}
 .container {
-  background-color: red;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
+  justify-content: center;
+}
+.inner__div {
+  background-color: rgb(8, 84, 109);
+  color: white;
+  width: 600px;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+.generate__div,
+.properties__div {
+  width: inherit;
+  display: flex;
+  justify-content: center;
+}
+#password {
+  width: 50%;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+#password:focus {
+  outline: none;
+}
+#password::placeholder {
+  font-size: inherit;
+}
+.inner__div__one:first-child {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  text-align: center;
+}
+.inner__div__one {
+  width: inherit;
+  padding: 5px;
+}
+.checkBox,
+.chkbox__label {
+  display: inline-block;
+}
+.btnDiv {
+  margin-top: 15px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+#generateButton,
+#resetButton {
+  font-size: 1.3rem;
+  border-radius: 5px;
 }
